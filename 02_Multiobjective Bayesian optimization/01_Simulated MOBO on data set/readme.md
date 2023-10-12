@@ -1,0 +1,2 @@
+# Simulated_MOBO_on_HTdataset.py
+This script performs a 500 simulated MOBO repetitions on a grid search data set "HTsummary_Co-Mn-Sb-Sn-Ti-gridsearch.txt" using the FixedNoiseMultiTaskGP. 5 random samples are used for initialization and the algorithm picks one new data point per iteration. Additionally, MultiTaskGP and a random sampler are also used to compare the results. The performance is compared through the normalized hypervolume per iteration. 
